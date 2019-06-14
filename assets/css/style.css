@@ -125,4 +125,13 @@ nav a:hover::before {
       padding: 20px;
     }
 
+    @media screen and (max-width: 640px) {
+
+        .centerbox {
+          /* Box-model */
+          width: 70%;
+          height: 70%;
+          padding: 20px;
+        }
+
   }
